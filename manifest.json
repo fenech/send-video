@@ -1,0 +1,20 @@
+{
+    "description": "Send video to Kodi",
+    "manifest_version": 2,
+    "name": "send-video",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/screen-16.png",
+            "32": "icons/screen-32.png"
+        }
+    }
+}
